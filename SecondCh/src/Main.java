@@ -39,5 +39,17 @@ public class Main {
         int xx,yx,zx;
         xx = yx = zx = 50;
         System.out.println(xx+yx+zx);
+
+        System.out.println("java identifier".toUpperCase());
+        System.out.println("Variable must unique and indentified, variables can be shor names like x or y but better it is descriptive like age,sum totalValue etc");
+        System.out.println("for Example : " +
+                "int minutesPerHour = 60; is it better than, int m = 60;");
+        System.out.println("Rule naming variable" +
+                "\n1.Can containt letter, digits, underscores and dollar signs" +
+                "\n2.Must begin with a letter" +
+                "\n3.Should start with a lowercase letter and it cannot contain whitespace" +
+                "\n4.Can also begin with $ and _" +
+                "\n5.Name is case sensitive" +
+                "\n6.Reserved words can't be used as names like int boolean float etc.");
     }
 }
